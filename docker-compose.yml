@@ -1,0 +1,33 @@
+services:
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
+  django:
+    build: .
+    command: daphne -b 0.0.0.0 -p 8000 core.asgi:application
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+      - celery_worker
+      - celery_beat
+
+  celery_worker:
+    build: .
+    command: celery -A core worker --loglevel=info
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+
+  celery_beat:
+    build: .
+    command: celery -A core beat --loglevel=info
+    volumes:
+      - .:/code
+    depends_on:
+      - redis

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HardWorking :)</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;">Celery | Redis | WebSocket | Docker</h2>
+
+    <div class="students">
+        <ul id="students-list">
+            {% for student in students %}
+            <li id="student-{{ student.id }}">Student: {{ student.name }} {{ student.surname }} - Age: {{ student.age }}
+            </li>
+            {% endfor %}
+        </ul>
+        <p id="no-students" {% if students %} style="display:none;" {% endif %}>No students available</p>
+    </div>
+
+    <script>
+        const studentList = document.getElementById('students-list');
+        const noStudentsMessage = document.getElementById('no-students');
+
+        const ws = new WebSocket('ws://' + window.location.host + '/ws/students/');
+
+        ws.onmessage = function (event) {
+            const data = JSON.parse(event.data);
+            const message = data.message;
+
+            if (message.includes('added')) {
+                const li = document.createElement('li');
+                li.textContent = message;
+                studentList.appendChild(li);
+                noStudentsMessage.style.display = 'none';
+            } else if (message.includes('deleted')) {
+                const li = document.querySelector(`#students-list li:last-child`);
+                if (li) {
+                    li.remove();
+                }
+                if (!studentList.children.length) {
+                    noStudentsMessage.style.display = 'block';
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>
