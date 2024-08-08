@@ -110,7 +110,7 @@ Technologies used in the project:
 *   Git
 </br>
 
-<h2>❕❔ Problems</h2>
+<h2>😬 Problems</h2>
 
 All the tools used are in their latest versions and suitable for one another. But if you have problems during installation I can recommend the following links:
 <p>1. <a href="https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html">How to download Celery and Redis.</a></p>
