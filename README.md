@@ -43,7 +43,7 @@ pip install celery
 <p>4. WebSocket</p>
 
 ```
-pip install websockets
+pip install channels
 ```
 <p>5. Options (take the contents of my requirements.txt file and ctrl + v into your own file):</p>
 
