@@ -113,9 +113,9 @@ Technologies used in the project:
 <h2>❕❔ Problems</h2>
 
 All the tools used are in their latest versions and suitable for one another. But if you have problems during installation I can recommend the following links:
-<p><a href="https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html">1. How to download Celery and Redis.</a></p>
-<p><a href="https://medium.com/@adabur/introduction-to-django-channels-and-websockets-cb38cd015e29">How to download WebSocket & Channels</a></p>
-<p><a href="https://www.docker.com/products/docker-desktop/">How to download Docker & Hub</a></p>
+<p>1. <a href="https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html">How to download Celery and Redis.</a></p>
+<p>2. <a href="https://medium.com/@adabur/introduction-to-django-channels-and-websockets-cb38cd015e29">How to download WebSocket & Channels</a></p>
+<p>3. <a href="https://www.docker.com/products/docker-desktop/">How to download Docker & Hub</a></p>
 
 </br>
 <h2>🛡️ License:</h2>
