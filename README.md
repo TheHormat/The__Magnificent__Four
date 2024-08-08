@@ -51,6 +51,47 @@ pip install websockets
 pip install -r requirements.txt
 ```
 </br>
+
+
+</br>
+<h2>🛜 To make it work: </h2>
+</br>
+<p>1. Create virtualenv</p>
+
+```
+python3 -m venv venv
+```
+</br>
+
+<p>2. Let's active venv</p>
+
+```
+source venv/bin/active
+```
+</br>
+
+<p>3. Migrate Student model</p>
+
+```
+python3 manage.py migrate
+```
+</br>
+
+<p>4. Install packets</p>
+
+```
+pip install -r requirements.txt
+```
+</br>
+
+<p>5. We join Docker Hub and run it</p>
+
+<p>6. Finally, it's time to create our docker image. With this, our project will be fully operational.</p>
+
+```
+docker compose up --build
+```
+</br>
   
 <h2>💻 Built with</h2>
 
