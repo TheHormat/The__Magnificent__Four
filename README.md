@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Perfect qartet in Django</h1>
+<h1 align="center" id="title">The Magnificent Four in Django</h1>
 
 <p align="center"><img src="https://i.postimg.cc/RhFB0CGH/image.webp" alt="project-image"></p>
 
