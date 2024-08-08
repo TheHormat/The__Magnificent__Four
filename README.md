@@ -110,6 +110,14 @@ Technologies used in the project:
 *   Git
 </br>
 
+<h2>❕❔ Problems</h2>
+
+All the tools used are in their latest versions and suitable for one another. But if you have problems during installation I can recommend the following links:
+<a href="https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html">1. How to download Celery and Redis.</a>
+<a href="https://medium.com/@adabur/introduction-to-django-channels-and-websockets-cb38cd015e29">How to download WebSocket</a>
+<a href="https://www.docker.com/products/docker-desktop/">How to download Docker & Hub</a>
+
+</br>
 <h2>🛡️ License:</h2>
 
 This project is licensed under the This project is licensed under the MIT License - see the \[LICENSE\](LICENSE) file for details.
