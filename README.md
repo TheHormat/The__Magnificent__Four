@@ -46,15 +46,6 @@ pip install celery
 pip install websockets
 ```
 </br>
-
-</br>
-
-<h2>🍰 Contribution Guidelines:</h2>
-
-Thank you for considering contributing to this project! Here are a few guidelines to help you get started: 1. Fork the Repository: Start by forking the repository on GitHub. 2. Clone the Repository: Clone your forked repository to your local machine.
-
-  
-</br>
   
 <h2>💻 Built with</h2>
 
