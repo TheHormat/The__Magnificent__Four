@@ -5,7 +5,7 @@
 <p id="description" align="center">Celery | Redis | WebSocket in Django with Docker</p>
 
 <h2>🫦 Medium Link</h2>
-<p>1. <a href="[https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/redis.html](https://hormat.medium.com/celery-redis-websocket-in-django-with-docker-40d534ba9071)">Here is a great blog post for this great repo</a></p>
+<p>1. <a href="https://hormat.medium.com/celery-redis-websocket-in-django-with-docker-40d534ba9071">Here is a great blog post for this great repo</a></p>
 
 </br>
 <h2>🧐 Features</h2>
