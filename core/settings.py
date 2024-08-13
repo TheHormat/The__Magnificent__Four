@@ -133,7 +133,7 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-# =================== Celery & Channel conf ==================
+# =================== Celery & Redis conf ===================
 CELERY_BROKER_URL = "redis://redis:6379/0"
 CELERY_RESULT_BACKEND = "redis://redis:6379/0"
 CELERY_BEAT_SCHEDULE = {
@@ -145,6 +145,7 @@ CELERY_BEAT_SCHEDULE = {
 
 CELERY_BROKER_CONNECTION_RETRY_ON_STARTUP = True
 
+# =================== WebSocket $ Channels conf ===================
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
