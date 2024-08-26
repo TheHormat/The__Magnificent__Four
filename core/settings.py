@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+
 # import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -39,11 +40,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # My APPs
-    "channels",
     "home",
+    "channels",
 ]
 
-ASGI_APPLICATION = 'core.asgi.application'
+ASGI_APPLICATION = "core.asgi.application"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
