@@ -50,7 +50,7 @@ pip install channels
 <p>5. Options (take the contents of my requirements.txt file and ctrl + v into your own file):</p>
 
 ```
-pip install -r requirements.txt
+poetry install
 ```
 </br>
 
@@ -82,7 +82,7 @@ python3 manage.py migrate
 <p>4. Install packets</p>
 
 ```
-pip install -r requirements.txt
+poetry install
 ```
 </br>
 
