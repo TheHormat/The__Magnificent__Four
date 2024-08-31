@@ -1,6 +1,6 @@
 <h1 align="center" id="title">The Magnificent Four in Django</h1>
 
-<p align="center"><img src="https://i.postimg.cc/RhFB0CGH/image.webp" alt="project-image"></p>
+<p align="center"><img src="https://cdn-images-1.medium.com/max/1600/1*y85gp8YpXOznN7P7vBhZQQ.jpeg" alt="project-image"></p>
 
 <p id="description" align="center">Celery | Redis | WebSocket in Django with Docker</p>
 
